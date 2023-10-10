@@ -217,7 +217,7 @@ text-align: center;
 font-family: gil,Arial,sans-serif;
 font-size: 20px;
 padding: 100px;
-max-width: 50%;
+max-width: 100%;
 margin: 0 auto;
 }
 
@@ -441,14 +441,8 @@ width: 50%;
 }
 
 /*Contact*/
-.cont {
-    display: flex;
-    padding: 100px;
-}
-
-.contact-form {
-
-    margin-left: 500px;
+.container-form {
+    margin: 30px;
 }
 
 /*FOOTER*/
@@ -520,6 +514,7 @@ width: 50%;
 
 
 /* Media query para dispositivos móviles */
+/*index*/ 
 @media (max-width: 768px) {
     .section-footer, .copyright {
         flex-direction: column;
@@ -534,14 +529,16 @@ width: 50%;
 
     }
     @media (max-width: 768px) {
+        .caja {
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 768px) {
         .aside {
             max-width: 100%;
             text-align: center;
             align-items: center;
-        }
-        .aside-text {
-            font-size: 30px;
-            
         }
     }
 
@@ -555,6 +552,16 @@ width: 50%;
 
         .days {
             margin: 10px 0;
+        }
+    }
+    @media (max-width: 768px) {
+        .catering {
+            width: 100%;
+            height: auto;
+        }
+        .brunch {
+            width: 100%;
+            height: auto;
         }
     }
 
@@ -581,7 +588,7 @@ width: 50%;
         margin: 10px 0;
     }
 }
-
+/*Cakes*/
 @media (max-width: 769px) {
     .cake-cont {
         max-width: 100%;
@@ -589,5 +596,12 @@ width: 50%;
         align-items: center;
         justify-content: center;
         flex-direction: row;
+    }
+}
+
+/*Contact*/
+@media (max-width: 769px) {
+    .form-principal {
+        flex-direction: column;
     }
 }

@@ -68,46 +68,47 @@ integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cD
             </nav>
     </header>
     <main>
-        <section>
-            <div class="cont">
-                <div class="row">
-                    <div class="col-2">
-                        <h3>Contact Us</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7045.963614382353!2d153.4245!3d-27.994453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91056e53218429%3A0xe47b6c88ac6e9bc2!2sBumbles%20Cafe!5e0!3m2!1ses!2sus!4v1693047856125!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-    </div>
-    <div class="col-10">
-        <form class="contact-form">
-            <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label" required>Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"required>Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"required>Full Name</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"required>Phone Number </label>
-                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="cont">
+            <div class="row">
+                <!-- Columna del formulario en dispositivos grandes y medianos, y pantalla completa en dispositivos pequeños -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3>Contact Us</h3>
+                    <form class="container-form">
+            <div class="col-md-6 offset-md-3 col-12">
+                <form class="contact-form">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label" required>Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label" required>Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputFullName" class="form-label" required>Full Name</label>
+                        <input type="text" class="form-control" id="exampleInputFullName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPhoneNumber" class="form-label" required>Phone Number</label>
+                        <input type="number" class="form-control" id="exampleInputPhoneNumber">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-            <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7045.963614382353!2d153.4245!3d-27.994453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91056e53218429%3A0xe47b6c88ac6e9bc2!2sBumbles%20Cafe!5e0!3m2!1ses!2sus!4v1693047856125!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>    
+        </div>
     </div>
-</div>
-</div>
-    </section>
         </main>
         <footer>
             <div class="footer">
