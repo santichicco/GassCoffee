@@ -538,23 +538,16 @@ width: 50%;
     .contact, .opening-hs, .follow {
         font-size: 16px;
     }
+    .caja {
+        align-items: center;
+        flex-direction: column;
+    }
 
-    }
-    @media (max-width: 768px) {
-        .caja {
-            align-items: center;
-            flex-direction: column;
-        }
-    }
-    @media (max-width: 768px) {
-        .aside {
+    .aside {
             max-width: 100%;
             text-align: center;
             align-items: center;
         }
-    }
-
-    @media (max-width: 768px) {
         .barra {
             max-width: 100%;
             text-align: left;
@@ -565,8 +558,7 @@ width: 50%;
         .days {
             margin: 10px 0;
         }
-    }
-    @media (max-width: 768px) {
+    
         .catering {
             width: 100%;
             height: auto;
@@ -576,9 +568,7 @@ width: 50%;
             width: 100%;
             height: auto;
         }
-    }
 
-@media (max-width: 1249px) {
     .contenedor {
         max-width: 100%;
         text-align: center;
