@@ -1,0 +1,56 @@
+/*FOOTER*/
+
+
+.section-footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: $color-principal;
+    padding: 100px;
+    .follow-us {
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    
+    
+    .facebook {
+        padding: 30px;
+    }
+    
+    .facebook:hover {
+        color: burlywood;
+    }
+    
+    .instagram:hover {
+        color: burlywood;
+    }
+    .contact {
+        font-size: 20px;
+        padding: 40px;
+    }
+    
+    .opening-hs {
+        font-size: map-get($map: $sizes, $key:small );
+        padding: 40px;
+    }
+    
+    .follow {
+        font-size: map-get($map: $sizes, $key:small );
+        padding: 40px;
+        
+    }
+}
+
+.copyright {
+    font-size: small;
+    padding-left: 600px;
+    color: black;
+    
+}
+
+/*FIN DE FOOTER*/

@@ -1,0 +1,29 @@
+/*HEADER*/
+header {
+    background-color: $color-principal;
+    .barra .nav-superior .days {
+        background-color: $color-principal;
+    }
+    .navbar-brand {
+        font-family: $title-fonts;
+        font-size:  map-get($map: $sizes, $key:large );
+    }
+    .nav-superior {
+        margin-left: 10px;
+    }
+    .days {
+        text-align: right;
+        margin-top: -20px;
+        margin-right: 10px;
+    }
+    .navbar-brand:hover {
+        color: rgb(70, 65, 65)
+    }
+}
+.background-image {
+    background-image: url(../img/porta.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+} 
