@@ -1,5 +1,12 @@
 /*FOOTER*/
 
+footer {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
 
 .section-footer {
     background-color: black;
@@ -14,8 +21,7 @@
         flex-direction: column;
         
     
-    }
-    
+    } 
     
     
     .facebook {
@@ -49,7 +55,8 @@
 .copyright {
     font-size: small;
     padding-left: 600px;
-    color: black;
+    color: white;
+    background-color: black;
     
 }
 
