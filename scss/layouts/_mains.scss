@@ -212,29 +212,24 @@ text-decoration: none;
     align-items: center;
     flex-direction: column;
 }
+.title-cake {
+    color: black;
+    padding: 30px;
+}
 
 .title-cakes{
     color: black;
-    margin-right: 300px;
+    margin: 0 auto; /* Esto centra el elemento horizontalmente */
     padding: 20px;
     font-size: xx-large;
-    font-family: $title-fonts;
-}
-
-.title-cake {
-    color: black;
-    width: 50%;
-    @extend %flex-center;
-    color: black;
-
+    font-family: $title-fonts; /* Asegúrate de que $title-fonts esté definido correctamente en tu código */
+    text-align: center; 
 }
 .cakes-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-gap: 10px; 
 }
-
-
 .cake {
     width: 100%; 
     max-height: 200px; 

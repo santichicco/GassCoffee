@@ -1,6 +1,12 @@
 /* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+}
+}
 /*index*/ 
 @media (max-width: 768px) {
+    
     #button1 {
         margin-top: 100px;
     }
@@ -90,7 +96,8 @@
 /*MENU*/
 @media (max-width: 769px) {
     .img-menu {
-        max-width: 100%;
+        width: 100%;
+        height: auto;
         flex-direction: column;
         object-fit: cover;
     }
@@ -146,6 +153,7 @@
 @media (max-width: 768px) {
     .cakes-container {
         grid-template-columns: repeat(1, 1fr);
+
     }
 }
 @media (max-width: 768px) {
@@ -161,8 +169,15 @@
             width: 100%;
             height: auto;
         }
+@media (max-width: 768px) {
+    .cake{
+        width: 100%;
+        height: auto;
+
+    }
         
     }
+}
 /*Contact*/
 @media (max-width: 769px) {
     .form-principal {
